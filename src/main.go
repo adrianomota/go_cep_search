@@ -39,7 +39,7 @@ func main() {
 		var cep Cep
 		err = json.Unmarshal(res, &cep)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "oarse error: %v\n", err)
+			fmt.Fprintf(os.Stderr, "parse error: %v\n", err)
 		}
 		fmt.Println(cep)
 	}
