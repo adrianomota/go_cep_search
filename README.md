@@ -1,2 +1,2 @@
 # go_cep_search
-This is a simple command line in order to search zipcodes in Brazil made in Golang.
+This is a simple command line app in order to search zipcodes in Brazil in Golang 0/
